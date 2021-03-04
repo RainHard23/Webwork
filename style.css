@@ -4,6 +4,8 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
+
+    background-color: #000;
 }
 
 *,
@@ -21,5 +23,30 @@ body {
 /* Header */
 
 .header {
-    sd
+  
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+
+    border-bottom: 1px solid #515369;
+}
+
+/* Nav */
+
+.nav {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
 }
